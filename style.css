@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'cms';
+  src:  url('fonts/cms.eot?c625hx');
+  src:  url('fonts/cms.eot?c625hx#iefix') format('embedded-opentype'),
+    url('fonts/cms.ttf?c625hx') format('truetype'),
+    url('fonts/cms.woff?c625hx') format('woff'),
+    url('fonts/cms.svg?c625hx#cms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="cms-"], [class*=" cms-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cms' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cms-user:before {
+  content: "\e602";
+}
+.cms-trash:before {
+  content: "\e605";
+}
+.cms-tag:before {
+  content: "\e608";
+}
+.cms-settings:before {
+  content: "\e60f";
+}
+.cms-search:before {
+  content: "\e610";
+}
+.cms-pencil:before {
+  content: "\e61c";
+}
+.cms-pencil-alt:before {
+  content: "\e61d";
+}
+.cms-view:before {
+  content: "\e63d";
+}
+.cms-reply2:before {
+  content: "\e644";
+}
+.cms-comment:before {
+  content: "\e645";
+}
+.cms-themify-close:before {
+  content: "\e646";
+}
+.cms-themify-check:before {
+  content: "\e64c";
+}
+.cms-announcement:before {
+  content: "\e64f";
+}
+.cms-themify-view-list:before {
+  content: "\e667";
+}
+.cms-server:before {
+  content: "\e67d";
+}
+.cms-menu:before {
+  content: "\e68e";
+}
+.cms-menu-alt:before {
+  content: "\e68f";
+}
+.cms-home:before {
+  content: "\e69b";
+}
+.cms-clipboard:before {
+  content: "\e6b4";
+}
+.cms-bell:before {
+  content: "\e6b8";
+}
+.cms-themify-favicon:before {
+  content: "\e6d2";
+}
+.cms-email:before {
+  content: "\e75a";
+}
+.cms-topic:before {
+  content: "\e900";
+}
+.cms-reply:before {
+  content: "\e901";
+}
+.cms-commentCount:before {
+  content: "\e902";
+}
+.cms-login:before {
+  content: "\e903";
+}
+.cms-point:before {
+  content: "\e904";
+}
+.cms-log:before {
+  content: "\e905";
+}
+.cms-favorites:before {
+  content: "\e906";
+}
+.cms-realNameAuthentication:before {
+  content: "\e907";
+}
+.cms-quote:before {
+  content: "\e908";
+}
+.cms-user2:before {
+  content: "\e909";
+}
+.cms-themify-image:before {
+  content: "\e633";
+}
+.cms-themify-angle-down:before {
+  content: "\e64b";
+}
+.cms-themify-control-play:before {
+  content: "\e6ad";
+}
+.cms-themify-control-pause:before {
+  content: "\e6ae";
+}
+.cms-themify-control-forward:before {
+  content: "\e6af";
+}
+.cms-themify-control-backward:before {
+  content: "\e6b0";
+}

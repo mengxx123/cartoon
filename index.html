@@ -1,0 +1,118 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>图片转手绘漫画</title>
+
+	<meta name="_commonPath" content="common/default2/pc/"/>
+
+	<link href="./common.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="./tool.js" language="javascript"></script>
+	<script type="text/javascript" src="./jquery.min.js" language="javascript"></script>
+	<link href="./layer.css"  type="text/css" rel="stylesheet"/>
+	<script type="text/javascript" src="./layer.js" language="javascript"></script>
+	
+	<script type="text/javascript" src="./lodash_cloneDeep.min.js" language="javascript"></script>
+	
+	<script type="text/javascript" src="./spin.min.js" ></script>
+	<link href="./spin.css" type="text/css" rel="stylesheet">
+	<link href="./style.css"  type="text/css" rel="stylesheet"/>
+
+	
+	<script type="text/javascript" src="./imageToCartoon.min.js" language="javascript"></script>
+	
+	<script type="text/javascript" language="javascript">
+		
+		
+	</script>
+	
+	
+</head>
+<body>
+<div class="headerModule">
+	<div class="box">
+		<a href="" class="logo">
+			<img alt="LOGO" src="./logo.gif" >
+		</a>
+<div class="nav">
+	<ul class="clearfix">
+			<li>
+				<a href="index">
+					首页
+				</a>
+			</li>
+			<li>
+				<a href="createGIF">
+					GIF图片添加字幕
+				</a>
+			</li>
+			<li>
+				<a href="imageToCartoon">
+					图片转手绘漫画
+						<i class="icon-new"></i>
+				</a>
+			</li>
+	</ul>
+</div>
+
+		<div class="head-search">
+			<form action="search" method="get">
+				<input name="keyword" value="" autocomplete="off" placeholder="搜索">
+				<input type="submit" class="sub-button">
+			</form>
+		</div>
+		<div class="menu" >
+			<ul class="clearfix">
+					<li><a href="register">注册</a></li>
+					<li><a href="login">登录</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="fixedBottom wrap clearfix">
+	<div class="cartoonModule">
+		<div class="cartoon" >
+			<div class="cartoon-container" >
+				<div id="cartoonBox" class="cartoon-box">
+					<div class="background-image cms-themify-image"></div>
+					<div class="background-prompt">图片转手绘漫画</div>
+					<div class="note">提示：图像渲染由浏览器端完成，不会上传到服务器端。</div>
+				</div>
+			</div>
+		</div>
+		<div class="cartoon" >
+			<div class="operating" >
+				<div class="bottomInfo">
+					<div class="button-box" >
+						<span class="uploadButton" style="width: 80px; height: 30px;" >选择图片
+							<input type="file" style="width: 105px;" onchange="readImage(this)" accept="image/gif,image/jpeg,image/jpg,image/png,image/bmp"/>
+						</span>
+					</div>
+					<div class="button-box" >
+						<button class="solid-button solid-button--primary solid-button--large" style="width: 100px; height: 34px;" onClick="javascript:downloadImage();"><label class="solid-button-text" >下载图片</label></button>
+						
+					</div>
+				</div>
+				
+				<div class="tutorial-box">
+					<a href="imageToCartoonHelp" target="_blank" title="图片转手绘漫画制作教程"><span class="tutorial" style="width: 60px;height: 60px;">教程</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="clear"></div>
+	<div class="push"><!-- 把div#footer推下去 --></div>
+</div>
+
+</body>
+
+
+</html>
+
+
+
+
